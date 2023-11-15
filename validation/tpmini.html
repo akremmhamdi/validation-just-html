@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> AKREM MHAMDI - Portfolio</title>
+</head>
+<body style="background-color: #141313; margin: 0; font-family: Arial, sans-serif; color: white;"></body>
+<body>
+
+    <header>
+       <br> <img src="C:\Users\akrem\Desktop\tech web\validation\akrem.jpg "alt="akrem mhamdi"height="100" width="100">
+        <h1> <hr> Mhamdi Akrem <hr> </h1>
+        <p>
+             Mastèrien en Management de la performance industriel MPI
+        </p>
+        <p>
+             Technicien supérieur genie mecanique specialité plasturgie
+        </p>   
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Bienvenue sur Mon Portfolio</h2>
+        <p>
+            Je suis Akrem Mhamdi, un professionnel du génie mécanique spécialisé en plasturgie et en management de la performance industrielle. À 28 ans, je suis connu pour ma détermination, mon ambition et mon optimisme. J'ai obtenu mon bac technique avec mention assez bien en 2014, suivi de trois ans à l'Institut Supérieur des Études Technologiques de Radès et deux ans de master en Management.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>
+            Voici quelques-uns de mes projets:
+            <ul>
+                <li>
+                    <p>Projet 1 : Projet Lean Six Sigma  chez <a href="https://www.coala-tunisie.com/">Groupe COILA</a></p>
+                    <img src="C:\Users\akrem\Desktop\tech web\validation\somef.jpg" alt="equipe lean" height="150" width="150">
+                    <img src="C:\Users\akrem\Desktop\tech web\validation\6sigma.jpg" alt="logo 6 sigma" height="150" width="150">
+                    <img src="C:\Users\akrem\Desktop\tech web\validation\coila.png" alt="coila" height="150" width="150">
+                </li>
+        
+                <li>
+                    <p>Projet 2 : Conception et Fabrication d'un moule d'injection chez <a href="https://www.somef.tn/fr/">SOMEF Tunisie</a></p>
+                    <img src="C:\Users\akrem\Desktop\tech web\validation\somef1.jpg" alt="equipe somef" height="150" width="225">
+                    <img src="C:\Users\akrem\Desktop\tech web\validation\Visu-conception.jpg" alt="moule" height="150" width="225">
+
+                </li>
+        
+                <li>
+                    <p>Projet 3 : Description du Projet 1</p>
+                </li>
+            </ul>
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="traitement_formulaire.php" method="post">
+            <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required minlength="3" title="Veuillez entrer un nom d'au moins 3 caractères">
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" minlength="3" title="Veuillez entrer un prénom d'au moins 3 caractères">
+
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" pattern="[0-9]+" required title="Veuillez entrer un numéro de téléphone valide (chiffres uniquement)">
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required title="Veuillez entrer une adresse e-mail valide">
+    
+            <br><label for="message">Message :</label>
+            <br><textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>
+            Vous pouvez me joindre à  linkedin : <a href="https://www.linkedin.com/in/mhamdi-akrem/">mhamdi-akrem</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mhamdi akrem  - Portfolio</p>
+    </footer>
+
+</body>
+</html>
